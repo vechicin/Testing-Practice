@@ -4,23 +4,21 @@ class Calculator {
     this.b = b;
   }
 
-  static add() {
+  add() {
     return this.a + this.b;
   }
 
-  static substract() {
+  substract() {
     return this.a - this.b;
   }
 
-  static divide() {
+  divide() {
     return this.a / this.b;
   }
 
-  static multiply() {
+  multiply() {
     return this.a * this.b;
   }
 };
 
-const calculator = { Calculator };
-
-module.exports = calculator;
+module.exports = { Calculator };
